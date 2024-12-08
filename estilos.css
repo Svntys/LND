@@ -1,0 +1,78 @@
+/* 3. Aqui estara todo el codigo css de los estilos. */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+  }
+  
+
+  h1 {
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 20px;
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+  }
+
+  p {
+    color: #333;
+    font-family: 'Trebuchet MS';
+  }
+  
+  /* Estilos para la etiqueta <article> */
+  article {
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    background-color: bisque;
+    max-width: 2000px;
+    text-align: center;
+  }
+
+  img {
+    height: auto;
+    width: 60%;
+    max-width: 1200px;
+  }
+
+  #fechaHora {
+    padding: 10px;
+  }
+
+  #myForm {
+    text-align: left;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+  }
+
+/* 2. A parte del codigo css que ya modula los tamaños añadimos unos media querys simples que ajustan el tamaño de letra depende del tamaño de la ventana. */
+@media (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+}
